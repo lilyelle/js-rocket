@@ -53,7 +53,11 @@ a{
 a.button{
 	text-decoration: none;
 	font-family: Helvetica;
-	font-color: red;
+	color: black;
+	border: 5px solid #ffffff;
+	border-radius: 10px;
+	padding: 10px;
+	background-color: #ff4e4e;
 }
 
 .state1,
