@@ -5,7 +5,7 @@
 	height: 100%;
 	top: 0;
 	left: 0;
-	
+	text-align: center;
 }
 
 .right{
@@ -28,7 +28,12 @@
 
 }
 
-.rocket.flying{
+body.body-state1 .rocket{
+	transition: none;
+}
+
+body.body-state3 .rocket,
+body.body-state4 .rocket{
 	bottom: 1000px;
 }
 
@@ -43,7 +48,8 @@
 
 h1{
 	font-family: Helvetica;
-
+	position: relative;
+	top: 100px;
 }
 
 a{
@@ -58,6 +64,8 @@ a.button{
 	border-radius: 10px;
 	padding: 10px;
 	background-color: #ff4e4e;
+	position: relative;
+	top: 120px;
 }
 
 .state1,
