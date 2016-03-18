@@ -1,5 +1,5 @@
 .left{
-	background: url('../img/slumber2.jpg') no-repeat 0 0;
+	background: url('../img/slumber2.jpg') no-repeat center center;
 	position: fixed;
 	width: 50%;
 	height: 100%;
@@ -70,10 +70,11 @@ body.body-state4 .rocket{
 }
 
 h1{
-	font-family: Helvetica;
+	font-family: Helvetica, sans-serif;
 	position: relative;
-	top: 300px;
+	top: 250px;
 	color: white;
+	padding: 20px;
 }
 
 a{
@@ -81,15 +82,20 @@ a{
 }
 
 a.button{
+	display: inline-block;
 	text-decoration: none;
-	font-family: Helvetica;
+	font-family: Helvetica, sans-serif;
 	color: black;
 	border: 5px solid #ffffff;
 	border-radius: 10px;
 	padding: 10px;
 	background-color: #ff4e4e;
 	position: relative;
-	top: 320px;
+	top: 270px;
+}
+
+a:hover{
+	color: white;
 }
 
 .state1,

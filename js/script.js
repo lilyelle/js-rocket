@@ -1,3 +1,7 @@
+setTimeout(function(){
+	location.href = 'rocket.html';
+}2000)
+
 // this makes the green box turn red when you click it
 var doCoolStuff = function (){
 	var currentClassName = document.getElementById('cool').className;
